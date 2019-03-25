@@ -1,2 +1,30 @@
 TCP / IP
 传输控制协议和网络协议
+
+TCP/IP
+传输控制协议 和 网络协议
+
+七层协议：
+7应用层		telnet,ssh,smtp.ftp,html...
+6表示层		
+5会话层		socket，port端口
+4传输层		TCP,UDP,UDP-lite,SCTP,DCCP
+3网络层		IPv4,IPv6
+2数据链路层	以太网，无线网，PPP...
+1物理层		双绞线，无线，光纤...
+
+四层
+4应用层				data
+3传输层			header 	data
+2网络层		header  header	data
+1物理层		header  header	header 	data
+
+应用层	stream		流
+传输层	segment		段
+网络层	datagram	数据包
+物理层	frame		框架
+
+三次握手 SYN ACK Data
+
+子网掩码
+
